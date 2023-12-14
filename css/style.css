@@ -1,0 +1,71 @@
+#main-page{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/bg-q.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my-bg{
+    background-color: rgba(90,145,169, 1);
+}
+.main-hsyyle{
+    font-size: 3.5rem;
+    font-family: 'Holtwood One SC', serif;
+    color:#2d3436;
+}
+.par-style{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.8rem;
+    color:black;
+
+}
+.h-style{
+    font-family: 'Square Peg', cursive;
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0,0.6);
+}
+.icoo{
+    color: rgba(223, 230, 233,1.0);
+    
+}
+
+
+
+button {
+  position: relative;
+  font-size: 1.2em;
+  padding: 0.7em 1.4em;
+  background-color: #273c75;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.5em;
+  color: #DEDEDE;
+  box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+}
+
+button::before {
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  top: 0;
+  left: 0;
+  background: linear-gradient(135deg, rgba(90,145,169, 1) 0%, rgba(90,145,169, 1) 50%, rgba(39, 60, 117,1.0) 50%, rgba(39, 60, 117,1.0) 60%);
+  border-radius: 0 0 0.5em 0;
+  box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+button:hover::before {
+  width: 1.6em;
+  height: 1.6em;
+}
+
+button:active {
+  box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
+  transform: translate(0.1em, 0.1em);
+}
+.special-btn{
+    
+}

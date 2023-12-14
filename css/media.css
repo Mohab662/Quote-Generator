@@ -1,0 +1,18 @@
+@media screen and (max-width: 400px){
+    .main-hsyyle{
+        font-size: 2.2rem;
+        font-family: 'Holtwood One SC', serif;
+        color:#2d3436;
+    }
+    .par-style{
+        font-family: 'Indie Flower', cursive;
+        font-size: 1.5rem;
+        color:black;
+    
+    }
+    .h-style{
+        font-family: 'Square Peg', cursive;
+        font-size:1.9 rem;        color: rgba(0, 0, 0,0.6);
+    }
+    
+}
